@@ -1,0 +1,40 @@
+legend {
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #024700;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+fieldset,
+textarea,
+label,
+button {
+  display: block;
+}
+
+fieldset {
+  width: 50%;
+  border-radius: 5px;
+  font-size: 20px;
+  color: grey;
+}
+
+textarea {
+  width: 75%;
+  min-height: 100px;
+  margin: 20px;
+  color: grey;
+}
+
+.email label {
+  font-size: 15px;
+  margin: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 15px;
+}
