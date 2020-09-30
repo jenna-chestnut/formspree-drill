@@ -22,7 +22,8 @@ fieldset {
   color: grey;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   margin: 20px;
   width: 50%;
 }
